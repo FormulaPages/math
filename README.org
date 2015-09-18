@@ -1,14 +1,15 @@
-* [#B] Math
-** ABS
-*** Syntax
+#+TITLE: Math functions
+
+* ABS
+** Syntax
     
     ABS(number)
     
-*** Description
+** Description
     
     Returns the absolute value of a number.
     
-*** Examples
+** Examples
     #+BEGIN_EXAMPLE
     ABS(-12) = 12
     #+END_EXAMPLE
@@ -21,7 +22,7 @@
     ABS(-100) = 100
     #+END_EXAMPLE
     
-** ACOS
+* ACOS
    
    Returns the Inverse Cosine 
    
@@ -29,7 +30,7 @@
    ACOS(0.75) = 0.7227342478134157
    #+END_EXAMPLE
 
-** ACOSH
+* ACOSH
    
    Returns the hyperbolic arccosine of a number.
    
@@ -37,7 +38,7 @@
    ACOSH(2) = 1.3169578969248166
    #+END_EXAMPLE
 
-** ACOT
+* ACOT
    
    Returns the principal value of the arccotangent, or inverse cotangent, of a number.
    
@@ -45,7 +46,7 @@
    ACOT(2) = 0.46364760900080615
    #+END_EXAMPLE
 
-** ACOTH
+* ACOTH
    
    Returns the inverse hyperbolic cotangent of a number.
    
@@ -53,7 +54,7 @@
    ACOTH(6) = 0.16823611831060645
    #+END_EXAMPLE
 
-** ADD
+* ADD
    
    Add two factors.
    
@@ -61,7 +62,7 @@
    ADD(2, 2) = 4
    #+END_EXAMPLE
    
-** TODO AGGREGATE
+* TODO AGGREGATE
 
    Returns an aggregate in a list or database. 
 
@@ -97,11 +98,11 @@
    |           18 | PERCENTILE.EXC |
    |           19 | QUARTILE.EXC   |
 
-** TODO ARABIC
+* TODO ARABIC
 
    Converts a Roman numeral to an Arabic numeral.
 
-** ASIN
+* ASIN
    
    Returns the arcsine, or inverse sine, of a number.
    
@@ -109,7 +110,7 @@
      ASIN(-0.5) = -0.5235987755982988
    #+END_EXAMPLE
 
-** ASINH
+* ASINH
    
    Returns the hyperbolic arcsine of a number.
    
@@ -117,7 +118,7 @@
    ASINH(10) = 2.99822295029797
    #+END_EXAMPLE
 
-** ATAN
+* ATAN
    
    Returns the arctangent (in radians) of a number.
    
@@ -125,7 +126,7 @@
    ATAN(10) = 1.4711276743037345
    #+END_EXAMPLE
 
-** ATAN2
+* ATAN2
    
    Returns the arctangent of the quotient of its arguments.
    
@@ -133,7 +134,7 @@
    ATAN2(90, 15) = 1.4056476493802699
    #+END_EXAMPLE
 
-** ATANH
+* ATANH
    
    Returns the hyperbolic arctangent of a number.
    
@@ -141,7 +142,7 @@
    ATANH(0.5) = 0.5493061443340549
    #+END_EXAMPLE
 
-** BASE							   
+* BASE							   
    
    Converts a number into a text representation with the given radix (base).
    
@@ -149,7 +150,7 @@
      BASE(7,2) = "111"
    #+END_EXAMPLE
    
-** CEILING							   
+* CEILING							   
    
    Returns number rounded up, away from zero, to the nearest multiple of significance. 
    
@@ -173,7 +174,7 @@
      CEILING(0.234, 0.01) = 0.24
    #+END_EXAMPLE
    
-** COMBIN							   
+* COMBIN							   
    
    Returns the number of combinations for a given number of items.
    
@@ -181,11 +182,11 @@
      COMBIN(8,2) = 28
    #+END_EXAMPLE
    
-** TODO COMBINA							   
+* TODO COMBINA							   
 
    Returns the number of combinations (with repetitions) for a given number of items.
 
-** COS							   
+* COS							   
    
    Returns the cosine of the given angle.
    
@@ -193,7 +194,7 @@
      0.5001710745970701=COS(1.047)
    #+END_EXAMPLE
    
-** COSH
+* COSH
    
    Returns the hyperbolic cosine of a number.
    
@@ -201,7 +202,7 @@
      27.308232836016483 = COSH(4)
    #+END_EXAMPLE
    
-** COT							   
+* COT							   
    
    Return the cotangent of an angle specified in radians.
    
@@ -209,7 +210,7 @@
      -0.15611995216165922 = COT(30)
    #+END_EXAMPLE
    
-** COTH							   
+* COTH							   
    
    Return the hyperbolic cotangent of a hyperbolic angle.
    
@@ -217,7 +218,7 @@
      1.0373147207275482 = COTH(2)
    #+END_EXAMPLE
    
-** CSC							   
+* CSC							   
    
    Returns the cosecant of an angle specified in radians.
    
@@ -225,7 +226,7 @@
      1.5377805615408537 = CSC(15)
    #+END_EXAMPLE
    
-** CSCH							   
+* CSCH							   
    
    Return the hyperbolic cosecant of an angle specified in radians.
    
@@ -233,7 +234,7 @@
      0.46964244059522464=CSCH(1.5)
    #+END_EXAMPLE
    
-** DECIMAL							   
+* DECIMAL							   
    
    Converts a text representation of a number in a given base into a decimal number.
    
@@ -241,7 +242,7 @@
      255 = DECIMAL("FF",16)
    #+END_EXAMPLE
 
-** DEGREES							   
+* DEGREES							   
    
    Converts radians into degrees.
    
@@ -249,7 +250,7 @@
      180 = DEGREES(PI())
    #+END_EXAMPLE
 
-** DIVIDE							   
+* DIVIDE							   
 
    Divide two factors.
 
@@ -257,7 +258,7 @@
      DIVIDE(10, 5) = 2
    #+END_EXAMPLE
 
-** EQ							   
+* EQ							   
    
    Check equivalence of two factors.
 
@@ -265,7 +266,7 @@
      EQ(1, +"1") 
    #+END_EXAMPLE
 
-** EVEN							   
+* EVEN							   
    
    Returns number rounded up to the nearest even integer. 
    
@@ -286,7 +287,7 @@
      -2=EVEN(-1)
    #+END_EXAMPLE
    
-** EXP							   
+* EXP							   
 
    Returns e raised to the power of number.
 
@@ -295,7 +296,7 @@
      EXP(10) = 22026.465794806707
    #+END_EXAMPLE
 
-** FACT
+* FACT
 
    Returns the factorial of a number.
 
@@ -311,7 +312,7 @@
      FACT(0)  = 1
    #+END_EXAMPLE
 
-** FACTDOUBLE						   
+* FACTDOUBLE						   
 
    Returns the double factorial of a number.
 
@@ -323,7 +324,7 @@
      FACTDOUBLE(7) = 105
    #+END_EXAMPLE
 
-** FLOOR
+* FLOOR
    
    Returns a number rounded down to a multiple of another number.
    
@@ -335,7 +336,7 @@
    FLOOR(0.234, 0.01) = 0.23
    #+END_EXAMPLE
 
-** TODO GCD
+* TODO GCD
 
    Returns the greatest common divisor of two or more integers. The greatest common divisor is the largest integer that divides both number1 and number2 without a remainder.
 
@@ -347,7 +348,7 @@
      GCD(24, 36) = 12
    #+END_EXAMPLE
 
-** GT							   
+* GT							   
    
    Returns true when a > b.
 
@@ -359,7 +360,7 @@
      NOT(GT(2, 4))
    #+END_EXAMPLE
 
-** GTE							   
+* GTE							   
 
    Returns true when a >= b.
 
@@ -371,7 +372,7 @@
      GTE(2, 2)
    #+END_EXAMPLE
 
-** INT							   
+* INT							   
 
    Rounds a number down to the nearest integer.
 
@@ -379,8 +380,8 @@
      INT(8.9) = 8
    #+END_EXAMPLE
 
-** TODO LCM							   
-** LOG
+* TODO LCM							   
+* LOG
    
    Returns a number rounded down to a multiple of another number.
    
@@ -392,7 +393,7 @@
    LOG(86, 2.7182818) = 4.454347342888286
    #+END_EXAMPLE
 
-** LOG10
+* LOG10
 
    Returns the base-10 logarithm of a number.
    
@@ -400,7 +401,7 @@
      LOG10(10) = 1
    #+END_EXAMPLE
 
-** LT
+* LT
 
    Returns true when a < b.
 
@@ -412,7 +413,7 @@
      NOT(LT(4, 2))
    #+END_EXAMPLE
 
-** LTE
+* LTE
 
    Returns true when a >= b.
 
@@ -424,13 +425,13 @@
      LTE(2, 2)
    #+END_EXAMPLE
 
-** TODO MDETERM
+* TODO MDETERM
 
    Returns the matrix determinant of an array.
 
    Look at https://github.com/sloisel/numeric/blob/master/src/numeric.js for ideas to implement.
 
-** MINUS
+* MINUS
 
    Subtract two factors.
 
@@ -438,15 +439,15 @@
      MINUS(2, 2) = 0
    #+END_EXAMPLE
 
-** TODO MINVERSE
+* TODO MINVERSE
 
    Returns the inverse matrix for the matrix stored in an array.
 
-** TODO MMULT
+* TODO MMULT
 
    Returns the matrix product of two arrays. The result is an array with the same number of rows as array1 and the same number of columns as array2.
 
-** MOD
+* MOD
 
    Returns the remainder when of two factors.
 
@@ -458,15 +459,15 @@
      MOD(11, 3) = 2
    #+END_EXAMPLE
 
-** TODO MROUND
+* TODO MROUND
 
    Returns a number rounded to the desired multiple.
 
-** TODO MULTINOMIAL
+* TODO MULTINOMIAL
 
    Returns the ratio of the factorial of a sum of values to the product of factorials.
 
-** MULTIPLY
+* MULTIPLY
 
    Multiply two factors.
 
@@ -478,11 +479,11 @@
      MULTIPLY(4, 2) = 8   
    #+END_EXAMPLE
 
-** TODO ODD
+* TODO ODD
 
    Returns number rounded up to the nearest odd integer.
 
-** PI
+* PI
 
    Returns the value for the univeral constant PI.
 
@@ -490,7 +491,7 @@
    PI() = 3.141592653589793
    #+END_EXAMPLE
 
-** POWER
+* POWER
    
    Returns the the nth power of a number.
 
@@ -498,7 +499,7 @@
      POWER(16, 2) = 256
    #+END_EXAMPLE
 
-** PRODUCT
+* PRODUCT
 
    Returns the product of the arguments.
 
@@ -510,7 +511,7 @@
      PRODUCT( 2, 2, 2, 2 ) = 16
    #+END_EXAMPLE
 
-** QUOTIENT
+* QUOTIENT
 
    Returns the integer portion of a divisor.
 
@@ -518,7 +519,7 @@
      QUOTIENT(5, 2) = 2
    #+END_EXAMPLE
 
-** RADIANS
+* RADIANS
 
    Convert degrees to radians.
 
@@ -526,7 +527,7 @@
      RADIANS(180) = PI()
    #+END_EXAMPLE
 
-** RAND
+* RAND
 
    Generate a random number.
 
@@ -534,7 +535,7 @@
      RAND()
    #+END_EXAMPLE
 
-** RANDBETWEEN
+* RANDBETWEEN
 
    Generate a random number between two values.
 
@@ -542,11 +543,11 @@
      RANDBETWEEN(0, 100)
    #+END_EXAMPLE
 
-** TODO ROMAN
+* TODO ROMAN
 
    Converts an arabic numeral to roman, as text.
 
-** ROUND
+* ROUND
    
    Round number with precision.
    
@@ -554,8 +555,8 @@
    ROUND(14.20223234, 2) = 14.20
    #+END_EXAMPLE
 
-** TODO ROUNDDOWN
-** ROUNDUP
+* TODO ROUNDDOWN
+* ROUNDUP
    
    Rounds a number up, away from 0 (zero).
    
@@ -575,15 +576,15 @@
    -3.2 = ROUNDUP(-3.14159, 1)
    #+END_EXAMPLE  
 
-** TODO SEC
-** TODO SECH
-** TODO SERIESSUM
-** TODO SIGN
-** TODO SIN
-** TODO SQRT
-** TODO SQRTPI
-** TODO SUBTOTAL
-** SUM
+* TODO SEC
+* TODO SECH
+* TODO SERIESSUM
+* TODO SIGN
+* TODO SIN
+* TODO SQRT
+* TODO SQRTPI
+* TODO SUBTOTAL
+* SUM
    
    Calculate SUM of list of numbers.
    
@@ -591,4 +592,3 @@
    SUM({1,1,1,1}, 10) = 14
    #+END_EXAMPLE
    
-# math
